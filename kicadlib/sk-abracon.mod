@@ -1,0 +1,68 @@
+PCBNEW-LibModule-V1  Sat 03 Aug 2013 03:50:12 PM EEST
+# encoding utf-8
+Units mm
+$INDEX
+ABS10
+HC49
+$EndINDEX
+$MODULE ABS10
+Po 0 0 0 15 51FCF829 00000000 ~~
+Li ABS10
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.5 1.5 1.5 0 0.15 N V 21 N "ABS10"
+T1 -0.6 -2.3 1.5 1.5 0 0.15 N V 21 N "VAL**"
+DS -2.9 -1.3 2.9 -1.3 0.15 21
+DS 2.9 -1.3 2.9 1.3 0.15 21
+DS 2.9 1.3 -2.9 1.3 0.15 21
+DS -2.9 1.3 -2.9 -1.3 0.15 21
+DS -0.3 -0.6 -0.3 0.6 0.15 21
+DS 0.3 0.5 0.3 0.6 0.15 21
+DS 0.3 -0.6 0.3 0.5 0.15 21
+$PAD
+Sh "1" R 1.3 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.1 0
+$EndPAD
+$PAD
+Sh "2" R 1.3 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.1 0
+$EndPAD
+$EndMODULE ABS10
+$MODULE HC49
+Po 0 0 0 15 51FCFC78 00000000 ~~
+Li HC49
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.9 3.6 1.5 1.5 0 0.15 N V 21 N "HC49"
+T1 -0.9 -3.2 1.5 1.5 0 0.15 N V 21 N "VAL**"
+DS -6 -1.4 -6 -1.3 0.15 21
+DS -6 2.4 -6 1.3 0.15 21
+DS -6 2.4 6 2.4 0.15 21
+DS 6 2.4 6 1.3 0.15 21
+DS -6 -2.4 -6 -1.4 0.15 21
+DS -6 -2.4 6 -2.4 0.15 21
+DS 6 -2.4 6 -1.3 0.15 21
+$PAD
+Sh "1" R 5.6 2.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.75 0
+$EndPAD
+$PAD
+Sh "2" R 5.6 2.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.75 0
+$EndPAD
+$EndMODULE HC49
+$EndLIBRARY

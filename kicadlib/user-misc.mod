@@ -1,0 +1,148 @@
+PCBNEW-LibModule-V1  Sun 18 Aug 2013 10:29:13 PM EEST
+# encoding utf-8
+Units mm
+$INDEX
+ABS10
+ALPS_BUTTON
+PINHEAD-2x6_SMD
+mountinghole-3mm
+$EndINDEX
+$MODULE ABS10
+Po 0 0 0 15 52109F2B 00000000 ~~
+Li ABS10
+Sc 0
+AR /51FBA6DB
+Op 0 0 0
+T0 -3.937 0.127 0.508 0.4572 900 0.0635 N V 21 N "X1"
+T1 -0.6 -2.3 1.5 1.5 0 0.15 N V 21 N "32.768kHz"
+DS -2.9 -1.3 2.9 -1.3 0.15 21
+DS 2.9 -1.3 2.9 1.3 0.15 21
+DS 2.9 1.3 -2.9 1.3 0.15 21
+DS -2.9 1.3 -2.9 -1.3 0.15 21
+DS -0.3 -0.6 -0.3 0.6 0.15 21
+DS 0.3 0.5 0.3 0.6 0.15 21
+DS 0.3 -0.6 0.3 0.5 0.15 21
+$PAD
+Sh "1" R 1.3 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "XOUT"
+Po -2.1 0
+$EndPAD
+$PAD
+Sh "2" R 1.3 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "XIN"
+Po 2.1 0
+$EndPAD
+$EndMODULE ABS10
+$MODULE ALPS_BUTTON
+Po 0 0 0 15 51FE1AD0 00000000 ~~
+Li ALPS_BUTTON
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.8 4 1.5 1.5 0 0.15 N V 21 N "ALPS_BUTTON"
+T1 -1.9 -3.9 1.5 1.5 0 0.15 N V 21 N "VAL**"
+DS -4.2 -2.6 4.2 -2.6 0.15 21
+DS 4.2 -2.6 4.2 2.6 0.15 21
+DS 4.2 2.6 -4.2 2.6 0.15 21
+DS -4.2 2.6 -4.2 -2.6 0.15 21
+$PAD
+Sh "1" R 1.8 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.1 -1.85
+$EndPAD
+$PAD
+Sh "2" R 1.8 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.1 -1.85
+$EndPAD
+$PAD
+Sh "3" R 1.8 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.1 1.85
+$EndPAD
+$PAD
+Sh "4" R 1.8 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.1 1.85
+$EndPAD
+$EndMODULE ALPS_BUTTON
+$MODULE PINHEAD-2x6_SMD
+Po 0 0 0 15 51FD1EA4 00000000 ~~
+Li PINHEAD-2x6_SMD
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.3 -4.9 0.762 0.762 0 0.127 N V 21 N "PINHEAD1-6_SMD"
+T1 -0.1 4.5 0.762 0.762 0 0.127 N V 21 N "VAL**"
+$PAD
+Sh "1" T 0.74 2.79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 2.035
+$EndPAD
+$PAD
+Sh "2" R 0.74 2.79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 -2.035
+$EndPAD
+$PAD
+Sh "3" R 0.74 2.79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2.035
+$EndPAD
+$PAD
+Sh "4" R 0.74 2.79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -2.035
+$EndPAD
+$PAD
+Sh "5" R 0.74 2.79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 2.035
+$EndPAD
+$PAD
+Sh "6" R 0.74 2.79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 -2.035
+$EndPAD
+$EndMODULE PINHEAD-2x6_SMD
+$MODULE mountinghole-3mm
+Po 0 0 0 15 5211207F 00000000 ~~
+Li mountinghole-3mm
+Sc 0
+AR 
+Op 0 0 0
+T0 0.5 3 1.5 1.5 0 0.15 N I 21 N "mountinghole-3mm"
+T1 0 -4.2 1.5 1.5 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 5 5 0 0 0
+Dr 3.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE mountinghole-3mm
+$EndLIBRARY
