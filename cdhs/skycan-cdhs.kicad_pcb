@@ -72,7 +72,7 @@
     (pcbplotparams
       (layerselection 284196865)
       (usegerberextensions true)
-      (excludeedgelayer true)
+      (excludeedgelayer false)
       (linewidth 0.020000)
       (plotframeref false)
       (viasonmask false)
