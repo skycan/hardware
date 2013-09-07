@@ -1,0 +1,290 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 01 Sep 2013 03:46:22 PM EEST
+
+BeginCmp
+TimeStamp = /5219CF37;
+Reference = BT1;
+ValeurCmp = 3x1.5V AAA;
+IdModule  = BATTERY-HOLDER-KEYSTONE-2479;
+EndCmp
+
+BeginCmp
+TimeStamp = /52235189;
+Reference = BT2;
+ValeurCmp = LiPo;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5218902E;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52189028;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52188E7E;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /521895BD;
+Reference = C4;
+ValeurCmp = 10pF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /5218990F;
+Reference = C5;
+ValeurCmp = 22uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52189915;
+Reference = C6;
+ValeurCmp = 22uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5218991B;
+Reference = C7;
+ValeurCmp = 22uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /521B8D53;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /521B9074;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /521B8482;
+Reference = C10;
+ValeurCmp = 100nF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /521B843D;
+Reference = C11;
+ValeurCmp = 100nF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /521A0C15;
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /52231F29;
+Reference = C13;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /522318E5;
+Reference = C14;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52231DB0;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5211DE71;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5211DE80;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5211DE8F;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5211DE9E;
+Reference = H4;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FB88FA;
+Reference = J1;
+ValeurCmp = DF9-25P-1V-PLUG;
+IdModule  = DF9-25P-1V-plug;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FB8909;
+Reference = J2;
+ValeurCmp = DF9-25P-1V-SOCKET;
+IdModule  = DF9-25P-1V-socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FB891F;
+Reference = J3;
+ValeurCmp = DF9-25P-1V-PLUG;
+IdModule  = DF9-25P-1V-plug;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FB8925;
+Reference = J4;
+ValeurCmp = DF9-25P-1V-SOCKET;
+IdModule  = DF9-25P-1V-socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /52188C04;
+Reference = L1;
+ValeurCmp = 1uH;
+IdModule  = COILCRAFT-XFL4020;
+EndCmp
+
+BeginCmp
+TimeStamp = /521893E9;
+Reference = R1;
+ValeurCmp = 1M;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52189407;
+Reference = R2;
+ValeurCmp = 168k;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /521896A6;
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /521B8D59;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /521B8B0C;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /521A0C03;
+Reference = R6;
+ValeurCmp = 1M;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /521A0C39;
+Reference = R7;
+ValeurCmp = 1M;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /521B8748;
+Reference = R8;
+ValeurCmp = 0.02R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52231DBD;
+Reference = R9;
+ValeurCmp = 470R;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52231A3E;
+Reference = R10;
+ValeurCmp = 2R;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /5217B182;
+Reference = U1;
+ValeurCmp = TPS63060;
+IdModule  = S-PWSON-N10;
+EndCmp
+
+BeginCmp
+TimeStamp = /521A0BA4;
+Reference = U2;
+ValeurCmp = BQ27210;
+IdModule  = S-PVSON-N10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5223170B;
+Reference = U3;
+ValeurCmp = MICRO-B_USB;
+IdModule  = MICRO-B_USB;
+EndCmp
+
+BeginCmp
+TimeStamp = /522318AA;
+Reference = U4;
+ValeurCmp = MCP73831;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52232FED;
+Reference = U5;
+ValeurCmp = SWITCH-DPDT;
+IdModule  = MCLSS22P-SWITCH-DPDT;
+EndCmp
+
+EndListe
