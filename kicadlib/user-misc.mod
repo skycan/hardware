@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sun 01 Sep 2013 09:51:11 PM EEST
+PCBNEW-LibModule-V1  T 10 sept  2013 22:28:46 EEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -582,10 +582,10 @@ $MODULE mountinghole-3mm
 Po 0 0 0 15 5211207F 00000000 ~~
 Li mountinghole-3mm
 Sc 0
-AR 
+AR /5211DE71
 Op 0 0 0
-T0 0.5 3 1.5 1.5 0 0.15 N I 21 N "mountinghole-3mm"
-T1 0 -4.2 1.5 1.5 0 0.15 N V 21 N "VAL**"
+T0 0.5 3 0.762 0.762 0 0.127 N I 21 N "H1"
+T1 0 -4.2 1.5 1.5 0 0.15 N V 21 N "HOLE"
 $PAD
 Sh "1" C 5 5 0 0 0
 Dr 3.1 0 0
