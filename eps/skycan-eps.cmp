@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 01 Sep 2013 03:46:22 PM EEST
+Cmp-Mod V01 Created by CvPcb (2013-09-06 BZR 4312)-stable date = K 11 sept  2013 22:38:06 EEST
 
 BeginCmp
 TimeStamp = /5219CF37;
@@ -120,58 +120,58 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5211DE71;
+TimeStamp = /522F73A4;
 Reference = H1;
 ValeurCmp = HOLE;
 IdModule  = mountinghole-3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5211DE80;
+TimeStamp = /522F73B6;
 Reference = H2;
 ValeurCmp = HOLE;
 IdModule  = mountinghole-3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5211DE8F;
+TimeStamp = /522F73C1;
 Reference = H3;
 ValeurCmp = HOLE;
 IdModule  = mountinghole-3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5211DE9E;
+TimeStamp = /522F73CC;
 Reference = H4;
 ValeurCmp = HOLE;
 IdModule  = mountinghole-3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FB88FA;
+TimeStamp = /522F6DAD;
 Reference = J1;
-ValeurCmp = DF9-25P-1V-PLUG;
+ValeurCmp = DF9_25P_1V_PLUG;
 IdModule  = DF9-25P-1V-plug;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FB8909;
+TimeStamp = /522E20F5;
 Reference = J2;
-ValeurCmp = DF9-25P-1V-SOCKET;
+ValeurCmp = DF9_25P_1V_SOCKET;
 IdModule  = DF9-25P-1V-socket;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FB891F;
+TimeStamp = /522F6E02;
 Reference = J3;
-ValeurCmp = DF9-25P-1V-PLUG;
+ValeurCmp = DF9_25P_1V_PLUG;
 IdModule  = DF9-25P-1V-plug;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FB8925;
+TimeStamp = /522E2113;
 Reference = J4;
-ValeurCmp = DF9-25P-1V-SOCKET;
+ValeurCmp = DF9_25P_1V_SOCKET;
 IdModule  = DF9-25P-1V-socket;
 EndCmp
 
@@ -267,14 +267,14 @@ IdModule  = S-PVSON-N10;
 EndCmp
 
 BeginCmp
-TimeStamp = /5223170B;
+TimeStamp = /5230BCE1;
 Reference = U3;
 ValeurCmp = MICRO-B_USB;
 IdModule  = MICRO-B_USB;
 EndCmp
 
 BeginCmp
-TimeStamp = /522318AA;
+TimeStamp = /5230C5AF;
 Reference = U4;
 ValeurCmp = MCP73831;
 IdModule  = SOT23-5;
