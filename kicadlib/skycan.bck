@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT
+D standard battery
+$ENDCMP
+#
+$CMP DIODESCH3PIN
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP MICRO-B_USB
+D Micro-B USB connector
+$ENDCMP
+#
+$CMP SW_PUSH_4_PIN
+D Push Button
+K Switch
+$ENDCMP
+#
+#End Doc Library
