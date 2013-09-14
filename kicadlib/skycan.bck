@@ -1,9 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP BAT
-D standard battery
-$ENDCMP
-#
 $CMP DIODESCH3PIN
 D Diode schottky
 K DEV DIODE
