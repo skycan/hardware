@@ -1,10 +1,18 @@
-update=Tue 20 Aug 2013 12:56:29 PM EEST
+update=L 14 sept  2013 12:07:37 EEST
 version=1
 last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
 LibDir=
 NetFmtName=PcbnewAdvanced
 RptD_X=0
@@ -42,34 +50,27 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/andres/dropbox/Apps/CircuitHub/parts/kicad/CircuitHub
-LibName32=/home/andres/development/github/skycan-hardware/kicadlib/hirose
-LibName33=/home/andres/development/github/skycan-hardware/kicadlib/open-project
-LibName34=/home/andres/development/github/skycan-hardware/kicadlib/user-misc
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName31=/home/andres/development/github/skycan-hardware/kicadlib/skycan
 [pcbnew]
 version=1
+PageLayoutDescrFile=
 LastNetListRead=skycan-cdhs.net
 UseCmpFile=1
-PadDrill="    3.100000"
-PadDrillOvalY="    3.100000"
-PadSizeH="    5.000000"
-PadSizeV="    5.000000"
-PcbTextSizeV="    1.500000"
-PcbTextSizeH="    1.500000"
-PcbTextThickness="    0.300000"
-ModuleTextSizeV="    0.762000"
-ModuleTextSizeH="    0.762000"
-ModuleTextSizeThickness="    0.127000"
-SolderMaskClearance="    0.200000"
-SolderMaskMinWidth="    0.000000"
-DrawSegmentWidth="    0.200000"
-BoardOutlineThickness="    0.025400"
-ModuleOutlineThickness="    0.150000"
+PadDrill=3.1
+PadDrillOvalY=3.1
+PadSizeH=5
+PadSizeV=5
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=0.762
+ModuleTextSizeH=0.762
+ModuleTextSizeThickness=0.127
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.0254
+ModuleOutlineThickness=0.15
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -82,10 +83,4 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=/home/andres/dropbox/Apps/CircuitHub/parts/kicad/CircuitHub
-LibName12=/home/andres/development/github/skycan-hardware/kicadlib/hirose
-LibName13=/home/andres/development/github/skycan-hardware/kicadlib/open-project
-LibName14=/home/andres/development/github/skycan-hardware/kicadlib/sk-abracon
-LibName15=/home/andres/development/github/skycan-hardware/kicadlib/user-misc
-LibName16=/home/andres/development/github/skycan-hardware/kicadlib/skycan-cdhs-logo
-LibName17=/home/andres/development/github/skycan-hardware/kicadlib/OSHW-logo
+LibName11=/home/andres/development/github/skycan-hardware/kicadlib/skycan

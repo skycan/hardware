@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 19 Aug 2013 11:55:13 AM EEST
+Cmp-Mod V01 Created by CvPcb (2013-09-06 BZR 4312)-stable date = L 14 sept  2013 12:07:07 EEST
 
 BeginCmp
 TimeStamp = /51FB961E;
@@ -176,30 +176,30 @@ IdModule  = mountinghole-3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FB88FA;
+TimeStamp = /52341B7B;
 Reference = J1;
-ValeurCmp = DF9-25P-1V-PLUG;
+ValeurCmp = DF9_25P_1V_PLUG;
 IdModule  = DF9-25P-1V-plug;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FB8909;
+TimeStamp = /52342537;
 Reference = J2;
-ValeurCmp = DF9-25P-1V-SOCKET;
+ValeurCmp = DF9_25P_1V_SOCKET;
 IdModule  = DF9-25P-1V-socket;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FB891F;
+TimeStamp = /52341FD5;
 Reference = J3;
-ValeurCmp = DF9-25P-1V-PLUG;
+ValeurCmp = DF9_25P_1V_PLUG;
 IdModule  = DF9-25P-1V-plug;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FB8925;
+TimeStamp = /5234280D;
 Reference = J4;
-ValeurCmp = DF9-25P-1V-SOCKET;
+ValeurCmp = DF9_25P_1V_SOCKET;
 IdModule  = DF9-25P-1V-socket;
 EndCmp
 
@@ -288,35 +288,35 @@ IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FE17D8;
+TimeStamp = /5234401E;
 Reference = SW1;
 ValeurCmp = SW_PUSH_4_PIN;
 IdModule  = ALPS_BUTTON;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FB51C3;
+TimeStamp = /52342693;
 Reference = U1;
 ValeurCmp = MSP430F5528IRGCT;
-IdModule  = andrew/b3kma;
+IdModule  = S-PVQFN-N64;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FC0776;
+TimeStamp = /52343EA5;
 Reference = U2;
 ValeurCmp = MICRO-B_USB;
 IdModule  = MICRO-B_USB;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FE2809;
+TimeStamp = /52343D19;
 Reference = U3;
 ValeurCmp = FM24CL04B;
 IdModule  = SO8E;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FE2C86;
+TimeStamp = /52343C8B;
 Reference = U4;
 ValeurCmp = SST25VF080B;
 IdModule  = SO8E;
