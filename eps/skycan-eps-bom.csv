@@ -1,10 +1,3 @@
-Source:,/media/sf_Development/github/skycan-hardware/eps/skycan-eps.sch
-Date:,P 15 sept  2013 13:15:58 EEST
-Tool:,eeschema (2013-09-06 BZR 4312)-stable
-Component Count:,37
-
-Components:
-
 Reference,Value,LibPart,Footprint,Qty,Farnell
 BT1,3x1.5V AAA,device:BATTERY,AA holder,1,1339843
 BT2,LiPo,device:BATTERY,LiPo,1,
