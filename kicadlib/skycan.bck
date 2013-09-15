@@ -9,11 +9,6 @@ $CMP MICRO-B_USB
 D Micro-B USB connector
 $ENDCMP
 #
-$CMP SW_PUSH_4_PIN
-D Push Button
-K Switch
-$ENDCMP
-#
 $CMP SWITCH_4PIN
 D Push Button
 K Switch
