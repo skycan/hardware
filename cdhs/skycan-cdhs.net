@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/sf_Development/github/skycan-hardware/cdhs/skycan-cdhs.sch)
-    (date "P 15 sept  2013 11:07:58 EEST")
+    (date "P 15 sept  2013 12:53:33 EEST")
     (tool "eeschema (2013-09-06 BZR 4312)-stable"))
   (components
     (comp (ref P1)
@@ -168,6 +168,7 @@
       (tstamp 51FCF8B8))
     (comp (ref D1)
       (value DIODESCH3PIN)
+      (footprint SOT-23)
       (datasheet http://ee.farnell.com/avago-technologies/hsms-2800-tr1g/diode-rf-schottky-sot-23/dp/1056832)
       (fields
         (field (name Farnell) 1056832))
@@ -500,16 +501,20 @@
         (pin (num 3) (name D+) (type input))
         (pin (num 4) (name ID) (type input))
         (pin (num 5) (name GND) (type input))))
+    (libpart (lib skycan) (part SWITCH_4PIN)
+      (description "Push Button")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SWITCH_4PIN))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))))
     (libpart (lib skycan) (part MSP430F5528IRGCT)
       (fields
         (field (name Reference) U)
-        (field (name Value) MSP430F5528IRGCT)
-        (field (name Footprint) andrew/b3kma)
-        (field (name Datasheet) https://circuithub.com/parts/TI/MSP430F5528IRGCT/documents)
-        (field (name CircuitHubID) 1144)
-        (field (name symbolURN) andresv/dibfn)
-        (field (name symbolRevision) ad3ac964e0d3ea81553faba4d9c2307cc170c9e1)
-        (field (name footprintRevision) ca76739b8a947343c08b188b943f38933f2c6e4e))
+        (field (name Value) MSP430F5528IRGCT))
       (pins
         (pin (num 1) (name P6.0/CB0/A0) (type power_in))
         (pin (num 2) (name P6.1/CB1/A1) (type power_in))
@@ -574,17 +579,7 @@
         (pin (num 61) (name PJ.1/TDI/TCLK) (type power_in))
         (pin (num 62) (name PJ.2/TMS) (type power_in))
         (pin (num 63) (name PJ.3/TCK) (type power_in))
-        (pin (num 64) (name RST/NMI/SBWTDIO) (type power_in))))
-    (libpart (lib skycan) (part SWITCH_4PIN)
-      (description "Push Button")
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) SWITCH_4PIN))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type passive)))))
+        (pin (num 64) (name RST/NMI/SBWTDIO) (type power_in)))))
   (libraries
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
