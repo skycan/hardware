@@ -1,0 +1,32 @@
+Source:,/media/sf_Development/github/skycan-hardware/eps/skycan-eps.sch
+Date:,P 15 sept  2013 13:15:58 EEST
+Tool:,eeschema (2013-09-06 BZR 4312)-stable
+Component Count:,37
+
+Components:
+
+Reference,Value,LibPart,Footprint,Qty,Farnell
+BT1,3x1.5V AAA,device:BATTERY,AA holder,1,1339843
+BT2,LiPo,device:BATTERY,LiPo,1,
+"C1, C2",10uF,device:C,0805,2,
+"C10, C11, C12, C3, C8, C9",100nF,device:C,0402,6,
+"C13, C14",4.7uF,device:C,0805,2,
+C4,10pF,device:C,0402,1,
+"C5, C6, C7",22uF,device:C,0805,3,
+D1,LED,device:LED,0603,1,
+"J1, J3",DF9_25P_1V_PLUG,skycan:DF9_25P_1V_PLUG,,2,1798379
+"J2, J4",DF9_25P_1V_SOCKET,skycan:DF9_25P_1V_SOCKET,,2,1798380
+L1,1uH,device:INDUCTOR_SMALL,4x4 mm,1,2289214
+"R1, R6, R7",1M,device:R,0402,3,
+R10,2R,device:R,0402,1,
+R2,168k,device:R,0402,1,
+R3,100k,device:R,0402,1,
+R4,1k,device:R,0402,1,
+R5,10k,device:R,0402,1,
+R8,0.02R,device:R,0603,1,
+R9,470R,device:R,0402,1,
+U1,TPS63060,skycan:TPS63060,PWSON-N10,1,2082430
+U2,BQ27210,skycan:BQ27210,PVSON-N10,1,1754768
+U3,MICRO-B_USB,skycan:MICRO-B_USB,,1,2293753
+U4,MCP73831,skycan:MCP73831,SOT-23-5,1,1332158
+U5,SWITCH-DPDT,skycan:SWITCH-DPDT,,1,1522047
