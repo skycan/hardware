@@ -1,0 +1,35 @@
+Source:,/media/sf_Development/github/skycan-hardware/cdhs/skycan-cdhs.sch
+Date:,P 15 sept  2013 12:53:36 EEST
+Tool:,eeschema (2013-09-06 BZR 4312)-stable
+Component Count:,44
+
+Components:
+
+Reference,Value,LibPart,Footprint,Qty,Farnell
+C1,2.2nF,device:C,0402,1,
+"C10, C4, C6",10uF,device:C,0603,3,
+"C11, C19, C5, C7",100nF,device:C,0402,4,
+"C12, C9",220nF,device:C,0402,2,
+"C13, C14",12.5pF,device:C,0402,2,
+"C15, C16",10pF,device:C,0402,2,
+"C17, C18",18pF,device:C,0402,2,
+C8,470nF,device:C,0402,1,
+D1,DIODESCH3PIN,skycan:DIODESCH3PIN,SOT-23,1,1056832
+"D2, D3, D4",LED,device:LED,0603,3,
+"J1, J3",DF9_25P_1V_PLUG,skycan:DF9_25P_1V_PLUG,1 mm 2 rows 25 pins,2,1798379
+"J2, J4",DF9_25P_1V_SOCKET,skycan:DF9_25P_1V_SOCKET,1 mm 2 rows 25 pins,2,1798380
+P1,CONN_3X2,conn:CONN_3X2,smd 2x3 1.27 mm,1,
+R1,47K,device:R,0402,1,
+"R10, R11",10k,device:R,0402,2,
+"R2, R3",27R,device:R,0402,2,
+R4,100R,device:R,0402,1,
+R5,1M,device:R,0402,1,
+R6,1k5,device:R,0402,1,
+"R7, R8, R9",1k,device:R,0402,3,
+SW1,SWITCH_4PIN,skycan:SWITCH_4PIN,,1,2056841
+U1,MSP430F5528IRGCT,skycan:MSP430F5528IRGCT,VQFN64,1,1866820
+U2,MICRO-B_USB,skycan:MICRO-B_USB,5 pads,1,2293753
+U3,FM24CL04B,skycan:FRAM-I2C,SOIC8,1,2077746
+U4,SST25VF080B,skycan:FRAM,SOIC8,1,1871942
+X1,32.768kHz,device:CRYSTAL,4.9 x 1.8 mm,1,2101352
+X2,4MHz,device:CRYSTAL,HC49,1,1652553
