@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-09-06 BZR 4312)-stable date = L 14 sept  2013 12:07:07 EEST
+Cmp-Mod V01 Created by CvPcb (2013-09-06 BZR 4312)-stable date = P 15 sept  2013 11:08:13 EEST
 
 BeginCmp
 TimeStamp = /51FB961E;
@@ -288,9 +288,9 @@ IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /5234401E;
+TimeStamp = /52356B6E;
 Reference = SW1;
-ValeurCmp = SW_PUSH_4_PIN;
+ValeurCmp = SWITCH_4PIN;
 IdModule  = ALPS_BUTTON;
 EndCmp
 
