@@ -67,13 +67,12 @@ columns = columns + sorted(list(columnset))
 out = csv.writer(f, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_MINIMAL)
 
 # Output a set of rows as a header providing general information
-out.writerow(['Source:', net.getSource()])
-out.writerow(['Date:', net.getDate()])
-out.writerow(['Tool:', net.getTool()])
-out.writerow(['Component Count:', len(components)])
-out.writerow([])
-out.writerow(['Components:'])
-out.writerow([])
+# However GitHub does not render nice csv view if there is such stuff in the beginning
+#out.writerow(['Source:', net.getSource()])
+#out.writerow(['Date:', net.getDate()])
+#out.writerow(['Tool:', net.getTool()])
+#out.writerow(['Component Count:', len(components)])
+#out.writerow(['Components:'])
 out.writerow(columns)
 
 # Get all of the components in groups of matching parts + values (see kicad_netlist_reader.py)
