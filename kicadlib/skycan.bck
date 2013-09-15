@@ -14,4 +14,9 @@ D Push Button
 K Switch
 $ENDCMP
 #
+$CMP SWITCH_4PIN
+D Push Button
+K Switch
+$ENDCMP
+#
 #End Doc Library
