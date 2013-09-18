@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/sf_Development/github/skycan-hardware/eps/skycan-eps.sch)
-    (date "P 15 sept  2013 13:15:55 EEST")
+    (date "K 18 sept  2013 22:04:24 EEST")
     (tool "eeschema (2013-09-06 BZR 4312)-stable"))
   (components
     (comp (ref U1)
@@ -163,7 +163,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 522318E5))
     (comp (ref R10)
-      (value 2R)
+      (value 2k)
       (footprint 0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
