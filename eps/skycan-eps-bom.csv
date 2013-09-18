@@ -12,7 +12,7 @@ D1,LED,device:LED,0603,1,
 L1,1uH,device:INDUCTOR_SMALL,4x4 mm,1,2289214
 "R1, R6, R7",1M,device:R,0402,3,
 R10,2k,device:R,0402,1,
-R2,168k,device:R,0402,1,
+R2,180k,device:R,0402,1,
 R3,100k,device:R,0402,1,
 R4,1k,device:R,0402,1,
 R5,10k,device:R,0402,1,
