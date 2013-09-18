@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/sf_Development/github/skycan-hardware/cdhs/skycan-cdhs.sch)
-    (date "P 15 sept  2013 12:53:33 EEST")
+    (date "K 18 sept  2013 21:47:34 EEST")
     (tool "eeschema (2013-09-06 BZR 4312)-stable"))
   (components
     (comp (ref P1)
@@ -11,7 +11,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 51FB8FC1))
     (comp (ref R1)
-      (value 47K)
+      (value 47k)
       (footprint 0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -151,6 +151,8 @@
     (comp (ref R6)
       (value 1k5)
       (footprint 0402)
+      (fields
+        (field (name Farnell) 2072645))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 51FC12ED))
@@ -501,16 +503,6 @@
         (pin (num 3) (name D+) (type input))
         (pin (num 4) (name ID) (type input))
         (pin (num 5) (name GND) (type input))))
-    (libpart (lib skycan) (part SWITCH_4PIN)
-      (description "Push Button")
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) SWITCH_4PIN))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type passive))))
     (libpart (lib skycan) (part MSP430F5528IRGCT)
       (fields
         (field (name Reference) U)
@@ -579,7 +571,17 @@
         (pin (num 61) (name PJ.1/TDI/TCLK) (type power_in))
         (pin (num 62) (name PJ.2/TMS) (type power_in))
         (pin (num 63) (name PJ.3/TCK) (type power_in))
-        (pin (num 64) (name RST/NMI/SBWTDIO) (type power_in)))))
+        (pin (num 64) (name RST/NMI/SBWTDIO) (type power_in))))
+    (libpart (lib skycan) (part SWITCH_4PIN)
+      (description "Push Button")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SWITCH_4PIN))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive)))))
   (libraries
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
