@@ -1676,8 +1676,8 @@ P 4050 8750
 F 0 "SW1" H 4200 8860 50  0000 C CNN
 F 1 "SWITCH_4PIN" H 4050 8550 50  0000 C CNN
 F 2 "" H 4050 8750 60  0000 C CNN
-F 3 "http://ee.farnell.com/alps/skqgace010/switch-2-55n-5-2x5-2mm-no-actuator/dp/2056841" H 4050 8750 60  0001 C CNN
-F 4 "2056841" H 4050 8750 60  0001 C CNN "Farnell"
+F 3 "http://www.farnell.com/datasheets/1582326.pdf" H 4050 8750 60  0001 C CNN
+F 4 "2056843" H 4050 8750 60  0001 C CNN "Farnell"
 	1    4050 8750
 	1    0    0    -1  
 $EndComp
