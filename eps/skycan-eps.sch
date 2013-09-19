@@ -739,7 +739,7 @@ SDAB0
 Text GLabel 10950 4400 0    50   Input ~ 0
 SCLB0
 Text Notes 11050 5600 0    50   ~ 0
-LiPo / Li-Iion gauge is used for getting precise battery power estimate
+LiPo / Li-Iion gauge is used for getting precise battery power estimate\nI2C: 7 bit address 0x55
 Text Notes 13750 8850 0    50   ~ 0
 Not used
 $Comp
