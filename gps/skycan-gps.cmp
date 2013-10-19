@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-09-06 BZR 4312)-stable date = K 16 okt   2013 23:15:05 EEST
+
+BeginCmp
+TimeStamp = /525EF010;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /525EF022;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /525EF02D;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /525EF038;
+Reference = H4;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C4CF5;
+Reference = J1;
+ValeurCmp = SMA;
+IdModule  = SMA-TH-STRAIGHT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5255ADF2;
+Reference = U1;
+ValeurCmp = Taoglas CGGP.25.A;
+IdModule  = TAOGLAS_CGGP_25_4_A_02;
+EndCmp
+
+EndListe
