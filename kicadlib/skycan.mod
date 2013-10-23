@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  N 17 okt   2013 23:02:12 EEST
+PCBNEW-LibModule-V1  K 23 okt   2013 22:37:47 EEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -1990,7 +1990,7 @@ Ro -90 0 -90
 $EndSHAPE3D
 $EndMODULE SMA-TH-RIGHT
 $MODULE SMA-TH-STRAIGHT
-Po 0 0 0 15 525D9597 00000000 ~~
+Po 0 0 0 15 526824C5 00000000 ~~
 Li SMA-TH-STRAIGHT
 Kw SMA Connector
 Sc 0
@@ -2004,38 +2004,38 @@ DS 3.1496 3.1496 -3.1496 3.1496 0.381 21
 DS -3.1496 3.1496 -3.1496 -3.1496 0.381 21
 $PAD
 Sh "1" C 2 2 0 0 0
-Dr 1.3 0 0
+Dr 1.5 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
 $PAD
-Sh "3" C 2 2 0 0 0
-Dr 1.00076 0 0
+Sh "3" C 2.1 2.1 0 0 0
+Dr 1.7 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 2.6 -2.6
+Po 2.54 -2.54
 $EndPAD
 $PAD
-Sh "2" C 2 2 0 0 0
-Dr 1.00076 0 0
+Sh "2" C 2.1 2.1 0 0 0
+Dr 1.7 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.6 -2.6
+Po -2.54 -2.54
 $EndPAD
 $PAD
-Sh "5" C 2 2 0 0 0
-Dr 1.00076 0 0
+Sh "5" C 2.1 2.1 0 0 0
+Dr 1.7 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.6 2.6
+Po -2.54 2.54
 $EndPAD
 $PAD
-Sh "4" C 2 2 0 0 0
-Dr 1.00076 0 0
+Sh "4" C 2.1 2.1 0 0 0
+Dr 1.7 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 2.6 2.6
+Po 2.54 2.54
 $EndPAD
 $SHAPE3D
 Na "connectors/sma.wrl"
