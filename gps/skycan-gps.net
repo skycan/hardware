@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/sf_Development/github/skycan-hardware/gps/skycan-gps.sch)
-    (date "K 16 okt   2013 23:14:58 EEST")
+    (date "E 21 okt   2013 22:30:37 EEST")
     (tool "eeschema (2013-09-06 BZR 4312)-stable"))
   (components
     (comp (ref U1)
@@ -67,14 +67,14 @@
       (uri /home/andres/development/github/skycan-hardware/kicadlib/skycan.lib)))
   (nets
     (net (code 1) (name GND)
-      (node (ref J1) (pin 2))
-      (node (ref J1) (pin 3))
-      (node (ref J1) (pin 4))
       (node (ref J1) (pin 5))
+      (node (ref J1) (pin 4))
+      (node (ref J1) (pin 3))
+      (node (ref J1) (pin 2))
       (node (ref H1) (pin 1))
       (node (ref H2) (pin 1))
       (node (ref H3) (pin 1))
       (node (ref H4) (pin 1)))
-    (net (code 2) (name "")
+    (net (code 2) (name /SGNL)
       (node (ref U1) (pin 1))
       (node (ref J1) (pin 1)))))

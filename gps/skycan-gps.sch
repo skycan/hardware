@@ -190,4 +190,6 @@ Wire Wire Line
 	6100 6100 6100 6350
 Wire Wire Line
 	6350 6100 6350 6350
+Text Label 8050 5950 1    60   ~ 0
+SGNL
 $EndSCHEMATC
