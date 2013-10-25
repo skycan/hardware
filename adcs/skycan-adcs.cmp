@@ -1,122 +1,80 @@
-Cmp-Mod V01 Created by CvPcb (2013-09-06 BZR 4312)-stable date = K 11 sept  2013 22:38:06 EEST
+Cmp-Mod V01 Created by CvPcb (2013-09-06 BZR 4312)-stable date = R 25 okt   2013 22:11:19 EEST
 
 BeginCmp
-TimeStamp = /5219CF37;
+TimeStamp = /5246D416;
 Reference = BT1;
-ValeurCmp = 3x1.5V AAA;
-IdModule  = BATTERY-HOLDER-KEYSTONE-2479;
+ValeurCmp = BATTERY;
+IdModule  = COINCELL3001;
 EndCmp
 
 BeginCmp
-TimeStamp = /52235189;
-Reference = BT2;
-ValeurCmp = LiPo;
-IdModule  = PINHEAD1-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /5218902E;
+TimeStamp = /523CAA05;
 Reference = C1;
-ValeurCmp = 10uF;
-IdModule  = SM0805;
+ValeurCmp = 100nF;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /52189028;
+TimeStamp = /523CA9DB;
 Reference = C2;
 ValeurCmp = 10uF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52188E7E;
+TimeStamp = /523CB144;
 Reference = C3;
 ValeurCmp = 100nF;
 IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /521895BD;
+TimeStamp = /523E9EFA;
 Reference = C4;
-ValeurCmp = 10pF;
+ValeurCmp = 100nF;
 IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /5218990F;
+TimeStamp = /523D570F;
 Reference = C5;
-ValeurCmp = 22uF;
-IdModule  = SM0805;
+ValeurCmp = 100nF;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /52189915;
+TimeStamp = /523D5709;
 Reference = C6;
-ValeurCmp = 22uF;
+ValeurCmp = 10uF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5218991B;
+TimeStamp = /5241EFF5;
 Reference = C7;
-ValeurCmp = 22uF;
-IdModule  = SM0805;
+ValeurCmp = 10uF;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /521B8D53;
+TimeStamp = /5241F00C;
 Reference = C8;
 ValeurCmp = 100nF;
 IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /521B9074;
+TimeStamp = /523D5ADD;
 Reference = C9;
-ValeurCmp = 100nF;
+ValeurCmp = 220nF;
 IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /521B8482;
+TimeStamp = /523D5427;
 Reference = C10;
-ValeurCmp = 100nF;
-IdModule  = SM0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /521B843D;
-Reference = C11;
-ValeurCmp = 100nF;
-IdModule  = SM0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /521A0C15;
-Reference = C12;
-ValeurCmp = 100nF;
-IdModule  = SM0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /52231F29;
-Reference = C13;
 ValeurCmp = 4.7uF;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /522318E5;
-Reference = C14;
-ValeurCmp = 4.7uF;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52231DB0;
-Reference = D1;
-ValeurCmp = LED;
-IdModule  = LED-0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -176,115 +134,101 @@ IdModule  = DF9-25P-1V-socket;
 EndCmp
 
 BeginCmp
-TimeStamp = /52188C04;
-Reference = L1;
-ValeurCmp = 1uH;
-IdModule  = COILCRAFT-XFL4020;
-EndCmp
-
-BeginCmp
-TimeStamp = /521893E9;
+TimeStamp = /523EB778;
 Reference = R1;
-ValeurCmp = 1M;
+ValeurCmp = 4.7k;
 IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /52189407;
+TimeStamp = /523D464D;
 Reference = R2;
-ValeurCmp = 168k;
+ValeurCmp = 4.7k;
 IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /521896A6;
+TimeStamp = /523D466B;
 Reference = R3;
-ValeurCmp = 100k;
+ValeurCmp = 4.7k;
 IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /521B8D59;
+TimeStamp = /5243425A;
 Reference = R4;
-ValeurCmp = 1k;
+ValeurCmp = 4.7k;
 IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /521B8B0C;
+TimeStamp = /5249C7B9;
 Reference = R5;
-ValeurCmp = 10k;
+ValeurCmp = 330R;
 IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /521A0C03;
+TimeStamp = /5249C7D2;
 Reference = R6;
-ValeurCmp = 1M;
+ValeurCmp = 330R;
 IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /521A0C39;
+TimeStamp = /523EB2AE;
 Reference = R7;
-ValeurCmp = 1M;
+ValeurCmp = 4.7k;
 IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /521B8748;
+TimeStamp = /523EB2B9;
 Reference = R8;
-ValeurCmp = 0.02R;
-IdModule  = SM0603_Resistor;
+ValeurCmp = 4.7k;
+IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /52231DBD;
+TimeStamp = /523EB2C4;
 Reference = R9;
-ValeurCmp = 470R;
+ValeurCmp = 4.7k;
 IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /52231A3E;
-Reference = R10;
-ValeurCmp = 2R;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /5217B182;
+TimeStamp = /523E9B62;
 Reference = U1;
-ValeurCmp = TPS63060;
-IdModule  = S-PWSON-N10;
+ValeurCmp = ADT7310;
+IdModule  = SO8N;
 EndCmp
 
 BeginCmp
-TimeStamp = /521A0BA4;
+TimeStamp = /523CB428;
 Reference = U2;
-ValeurCmp = BQ27210;
-IdModule  = S-PVSON-N10;
+ValeurCmp = MPL3115A2;
+IdModule  = LGA8;
 EndCmp
 
 BeginCmp
-TimeStamp = /5230BCE1;
+TimeStamp = /523D59FE;
 Reference = U3;
-ValeurCmp = MICRO-B_USB;
-IdModule  = MICRO-B_USB;
+ValeurCmp = LSM303DLHC;
+IdModule  = LGA14L;
 EndCmp
 
 BeginCmp
-TimeStamp = /5230C5AF;
+TimeStamp = /52409F48;
 Reference = U4;
-ValeurCmp = MCP73831;
-IdModule  = SOT23-5;
+ValeurCmp = MAX-7C;
+IdModule  = MAX7;
 EndCmp
 
 BeginCmp
-TimeStamp = /52232FED;
+TimeStamp = /52546091;
 Reference = U5;
-ValeurCmp = SWITCH-DPDT;
-IdModule  = MCLSS22P-SWITCH-DPDT;
+ValeurCmp = UFL;
+IdModule  = UFL;
 EndCmp
 
 EndListe
