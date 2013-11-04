@@ -608,9 +608,9 @@ F 3 "" H 9800 2600 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 10150 2950 2    50   Input ~ 0
-P1.6
+P1.5
 Text GLabel 10150 3050 2    50   Input ~ 0
-P1.7
+P1.6
 Text Notes 8950 3250 0    50   ~ 0
 Could be removed if INT pins are not needed
 Text Notes 12700 2350 0    60   ~ 0
@@ -733,9 +733,9 @@ SDAB0
 Text Notes 12350 4150 0    60   ~ 0
 Accelerometer I2C 7 bit address: 0x19\nMagnetic field I2C 7 bit address: 0x1E
 Text GLabel 14650 2900 2    50   Input ~ 0
-P1.5
-Text GLabel 14650 3000 2    50   Input ~ 0
 P1.4
+Text GLabel 14650 3000 2    50   Input ~ 0
+P1.3
 Text GLabel 14650 3100 2    50   Input ~ 0
 P1.2
 NoConn ~ 13550 3200
@@ -905,7 +905,7 @@ F 3 "" H 9050 6300 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 9600 6550 2    50   Input ~ 0
-P1.3
+P1.7
 NoConn ~ 8850 6450
 Text Notes 13550 6000 0    60   ~ 0
 GPS
