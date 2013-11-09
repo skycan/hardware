@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  R 25 okt   2013 22:10:29 EEST
+PCBNEW-LibModule-V1  K 06 nov   2013 22:47:43 EET
 # encoding utf-8
 Units mm
 $INDEX
@@ -679,14 +679,14 @@ Po 4.75 0
 $EndPAD
 $EndMODULE HC49
 $MODULE LGA14L
-Po 0 0 0 15 526A237A 00000000 ~~
+Po 0 0 0 15 527AAA9F 00000000 ~~
 Li LGA14L
 Sc 0
-AR 
+AR /523D59FE
 Op 0 0 0
-T0 0 3.6 0.762 0.762 0 0.127 N V 21 N "LGA14L"
-T1 0 -3.4 0.762 0.762 0 0.127 N V 21 N "VAL**"
-DC -3.1 1.4 -3 0.8 0.15 21
+T0 0.127 -2.921 0.762 0.762 0 0.127 N V 21 N "U3"
+T1 0.254 3.302 0.762 0.762 0 0.127 N V 21 N "LSM303DLHC"
+DC -2.794 1.524 -2.794 1.27 0.15 21
 DS 2.5 -0.5 2.5 -1.5 0.15 21
 DS 2.5 0.5 2.5 1.5 0.15 21
 DS -2.5 0.6 -2.5 0.5 0.15 21
@@ -696,49 +696,49 @@ $PAD
 Sh "1" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+3.3V"
 Po -2 1.4
 $EndPAD
 $PAD
 Sh "2" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 9 "SCLB0"
 Po -1.2 1.4
 $EndPAD
 $PAD
 Sh "3" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 10 "SDAB0"
 Po -0.4 1.4
 $EndPAD
 $PAD
 Sh "4" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "P1.4"
 Po 0.4 1.4
 $EndPAD
 $PAD
 Sh "5" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 7 "P1.3"
 Po 1.2 1.4
 $EndPAD
 $PAD
 Sh "6" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "N-0000028"
 Po 2 1.4
 $EndPAD
 $PAD
 Sh "7" R 1.6 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po 2.3 0
 $EndPAD
 $PAD
@@ -752,42 +752,42 @@ $PAD
 Sh "9" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "P1.2"
 Po 1.2 -1.4
 $EndPAD
 $PAD
 Sh "10" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po 0.4 -1.4
 $EndPAD
 $PAD
 Sh "11" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po -0.4 -1.4
 $EndPAD
 $PAD
 Sh "12" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 5 "N-0000031"
 Po -1.2 -1.4
 $EndPAD
 $PAD
 Sh "13" R 0.5 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "N-0000026"
 Po -2 -1.4
 $EndPAD
 $PAD
 Sh "14" R 1.6 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+3.3V"
 Po -2.3 0
 $EndPAD
 $EndMODULE LGA14L
@@ -859,70 +859,70 @@ Po 1.4 -1.875
 $EndPAD
 $EndMODULE LGA8
 $MODULE MAX7
-Po 0 0 0 15 526A7137 00000000 ~~
+Po 0 0 0 15 527AAAE5 00000000 ~~
 Li MAX7
 Sc 0
-AR 
+AR /52409F48
 Op 0 0 0
-T0 0.1 6.1 0.762 0.762 0 0.127 N V 21 N "MAX7"
-T1 0 -6.1 0.762 0.762 0 0.127 N V 21 N "VAL**"
-DC 4.7 5.7 4.7 5.1 0.15 21
+T0 0.1 6.1 0.762 0.762 0 0.127 N V 21 N "U4"
+T1 0 -6.1 0.762 0.762 0 0.127 N V 21 N "MAX-7C"
+DC 4.826 5.334 4.826 5.08 0.15 21
 DS -4.9 -5.1 4.9 -5.1 0.15 21
 DS -4.9 5.1 4.9 5.1 0.15 21
 $PAD
 Sh "1" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po 4.7 4.4
 $EndPAD
 $PAD
 Sh "2" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 5 "N-000004"
 Po 4.7 3.3
 $EndPAD
 $PAD
 Sh "3" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "N-000006"
 Po 4.7 2.2
 $EndPAD
 $PAD
 Sh "4" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "P1.1"
 Po 4.7 1.1
 $EndPAD
 $PAD
 Sh "5" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 7 "P1.0"
 Po 4.7 0
 $EndPAD
 $PAD
 Sh "6" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "N-0000022"
 Po 4.7 -1.1
 $EndPAD
 $PAD
 Sh "7" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+3.3V"
 Po 4.7 -2.2
 $EndPAD
 $PAD
 Sh "8" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+3.3V"
 Po 4.7 -3.3
 $EndPAD
 $PAD
@@ -936,21 +936,21 @@ $PAD
 Sh "10" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po -4.7 -4.4
 $EndPAD
 $PAD
 Sh "11" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "N-0000018"
 Po -4.7 -3.3
 $EndPAD
 $PAD
 Sh "12" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po -4.7 -2.2
 $EndPAD
 $PAD
@@ -978,14 +978,14 @@ $PAD
 Sh "16" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 10 "SDAB0"
 Po -4.7 2.2
 $EndPAD
 $PAD
 Sh "17" R 1.6 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 9 "SCLB0"
 Po -4.7 3.3
 $EndPAD
 $PAD
