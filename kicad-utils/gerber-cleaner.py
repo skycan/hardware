@@ -12,8 +12,8 @@ path = sys.argv[1]
 path = os.path.abspath(path)
 outputname = sys.argv[2]
 
-inputfiletypes = ['gbl', 'gbo', 'gbs', 'gtl', 'gto', 'gts']
-removefiletypes = ['gbr']
+inputfiletypes = ['gbl', 'gbo', 'gbs', 'gtl', 'gto', 'gts', 'gbr']
+removefiletypes = []
 drillfiletype = 'drl'
 gerberdir = 'gerbers'
 
@@ -32,7 +32,12 @@ for f in filelist:
     # rename gerber files
     for in_type in inputfiletypes:
         if f.split(".")[-1] == in_type:
-            outputfile = os.path.join(path, '%s.%s' % (outputname, in_type.upper()))
+            # bydefault kicad outline file type is 'gbr'
+            # however iteadstudio wants it as 'GKO', so make it happen
+            if in_type == 'gbr':
+                outputfile = os.path.join(path, '%s.GKO' % (outputname))
+            else:
+                outputfile = os.path.join(path, '%s.%s' % (outputname, in_type.upper()))
             gerberfiles.append(outputfile)
             os.rename(inputfile, outputfile)
 
