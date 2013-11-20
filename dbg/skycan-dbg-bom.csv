@@ -1,0 +1,4 @@
+Reference,Value,LibPart,Footprint,Qty,Farnell
+"J1, J3",DF9_25P_1V_PLUG,skycan:DF9_25P_1V_PLUG,,2,1798379
+"J2, J4",DF9_25P_1V_SOCKET,skycan:DF9_25P_1V_SOCKET,,2,1798380
+"J5, J6",CONN_13X2,conn:CONN_13X2,,2,
