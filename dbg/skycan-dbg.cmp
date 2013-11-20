@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2013-09-06 BZR 4312)-stable date = T 19 nov   2013 21:08:03 EET
+
+BeginCmp
+TimeStamp = /522F73A4;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F73B6;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F73C1;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F73CC;
+Reference = H4;
+ValeurCmp = HOLE;
+IdModule  = mountinghole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F6DAD;
+Reference = J1;
+ValeurCmp = DF9_25P_1V_PLUG;
+IdModule  = DF9-25P-1V-plug;
+EndCmp
+
+BeginCmp
+TimeStamp = /522E20F5;
+Reference = J2;
+ValeurCmp = DF9_25P_1V_SOCKET;
+IdModule  = DF9-25P-1V-socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F6E02;
+Reference = J3;
+ValeurCmp = DF9_25P_1V_PLUG;
+IdModule  = DF9-25P-1V-plug;
+EndCmp
+
+BeginCmp
+TimeStamp = /522E2113;
+Reference = J4;
+ValeurCmp = DF9_25P_1V_SOCKET;
+IdModule  = DF9-25P-1V-socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /528BB630;
+Reference = J5;
+ValeurCmp = CONN_13X2;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /528BB61E;
+Reference = J6;
+ValeurCmp = CONN_13X2;
+IdModule  = pin_array_13x2;
+EndCmp
+
+EndListe
