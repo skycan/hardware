@@ -32,10 +32,17 @@ for f in filelist:
     # rename gerber files
     for in_type in inputfiletypes:
         if f.split(".")[-1] == in_type:
-            # bydefault kicad outline file type is 'gbr'
-            # however iteadstudio wants it as 'GKO', so make it happen
+            # bydefault kicad outline and inner layers have type'gbr'
+            # however iteadstudio wants it as outline to be 'GKO'
+            # and innerlayers 'GL1', 'GL2'
+            # notice that by default kicad Inner2 is 1 layer from top
             if in_type == 'gbr':
-                outputfile = os.path.join(path, '%s.GKO' % (outputname))
+                if "Edge_Cuts" in inputfile:
+                    outputfile = os.path.join(path, '%s.GKO' % (outputname))
+                elif "Inner1_Cu" in inputfile:
+                    outputfile = os.path.join(path, '%s.GL2' % (outputname))
+                elif "Inner2_Cu" in inputfile:
+                    outputfile = os.path.join(path, '%s.GL1' % (outputname))
             else:
                 outputfile = os.path.join(path, '%s.%s' % (outputname, in_type.upper()))
             gerberfiles.append(outputfile)
