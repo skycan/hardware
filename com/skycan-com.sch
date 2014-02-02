@@ -2240,19 +2240,19 @@ CLKA0
 NoConn ~ 8300 8550
 NoConn ~ 7900 8150
 Text GLabel 9950 3650 3    32   Input ~ 0
-P1.2
-Text GLabel 9400 2700 0    32   Input ~ 0
-P1.3
-Text GLabel 9400 2600 0    32   Input ~ 0
 P1.4
-Text GLabel 8900 8550 3    32   Input ~ 0
+Text GLabel 9400 2700 0    32   Input ~ 0
 P1.5
-Text GLabel 8500 8550 3    32   Input ~ 0
-A6
-Text GLabel 7900 8050 0    32   Input ~ 0
+Text GLabel 9400 2600 0    32   Input ~ 0
 P1.6
-Text GLabel 9200 8050 2    32   Input ~ 0
+Text GLabel 8900 8550 3    32   Input ~ 0
+P1.2
+Text GLabel 8500 8550 3    32   Input ~ 0
 A5
+Text GLabel 7900 8050 0    32   Input ~ 0
+P1.3
+Text GLabel 9200 8050 2    32   Input ~ 0
+A6
 $Comp
 L 2450AT18B100 ANT1
 U 1 1 52EAF06E
