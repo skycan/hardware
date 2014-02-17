@@ -2260,7 +2260,7 @@ P 11100 7300
 F 0 "ANT1" H 11100 7550 60  0000 C CNN
 F 1 "2450AT18B100" H 11500 7350 60  0000 C CNN
 F 2 "" H 11100 7300 60  0000 C CNN
-F 3 "" H 11100 7300 60  0000 C CNN
+F 3 "http://www.johansontechnology.com/datasheets/antennas/antenna_2450at18b100.pdf" H 11100 7300 60  0001 C CNN
 F 4 "1885497" H 11100 7650 60  0001 C CNN "Farnell"
 	1    11100 7300
 	1    0    0    -1  
@@ -2334,4 +2334,8 @@ $EndComp
 Wire Wire Line
 	8100 7250 8100 7150
 Connection ~ 8100 7150
+Text Notes 11800 9450 0    80   ~ 0
+Stackup:\n2 layers\ncopper: 35 um\ndielectric height: 0.8 mm \n
+Text Notes 9200 8800 0    50   ~ 0
+Keep BAL1 and BAL2 trace 2 mm accoding to app note:\nhttp://www.johansontechnology.com/images/stories/ip/baluns/Johanson_nRF8001_App_Note_v2.pdf
 $EndSCHEMATC
