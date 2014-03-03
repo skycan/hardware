@@ -1,4 +1,4 @@
-update=K 20 nov   2013 22:13:45 EET
+update=E 03 märts 2014 21:54:38 EET
 version=1
 last_client=pcbnew
 [general]
@@ -58,8 +58,8 @@ LastNetListRead=skycan-com.net
 UseCmpFile=1
 PadDrill=0
 PadDrillOvalY=0
-PadSizeH=3.81
-PadSizeV=3.81
+PadSizeH=2.99974
+PadSizeV=2.99974
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
@@ -68,7 +68,7 @@ ModuleTextSizeH=0.762
 ModuleTextSizeThickness=0.127
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
+DrawSegmentWidth=0.127
 BoardOutlineThickness=0.0254
 ModuleOutlineThickness=0.15
 [pcbnew/libraries]
