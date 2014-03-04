@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "COM"
-Date "30 jaan  2014"
+Date "04 märts 2014"
 Rev "1.0"
 Comp "Skycan"
 Comment1 ""
@@ -1713,6 +1713,7 @@ F 0 "U4" H 14750 4000 60  0000 C CNN
 F 1 "UFL" H 14750 3650 60  0000 C CNN
 F 2 "" H 14950 3850 60  0000 C CNN
 F 3 "" H 14950 3850 60  0000 C CNN
+F 4 "1688077" H 14950 3850 60  0001 C CNN "Farnell"
 	1    14950 3850
 	1    0    0    -1  
 $EndComp
@@ -2328,6 +2329,7 @@ F 0 "U2" H 8550 8050 50  0000 C CNN
 F 1 "NRF8001" H 8550 7900 50  0000 C CNN
 F 2 "" H 8550 7900 60  0000 C CNN
 F 3 "" H 8550 7900 60  0000 C CNN
+F 4 "949-NRF8001-R2Q32-T" H 8550 7900 60  0001 C CNN "Mouser"
 	1    8550 7900
 	1    0    0    -1  
 $EndComp
